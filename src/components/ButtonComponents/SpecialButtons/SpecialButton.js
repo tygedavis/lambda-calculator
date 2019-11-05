@@ -5,7 +5,7 @@ const SpecialButton = (props) => {
   // console.log({special})
   return (
     <>
-      <button>{props.btn}</button>
+      <button className='specialBtn'>{props.btn}</button>
     </>
   );
 };

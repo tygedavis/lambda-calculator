@@ -8,7 +8,7 @@ import { numbers } from '../../../data'
 */
 //Import your array data to from the provided data file
 
-const Numbers = () => {
+export const Numbers = () => {
   // STEP 2 - add the imported data to state
   const [numberState] = useState(numbers)
   return (
